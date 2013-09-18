@@ -17,14 +17,12 @@ group :production do
   gem 'pg'
 end
 
-group :assets do
   gem 'sass-rails'
   gem 'coffee-rails'
   gem 'compass-rails'
   gem 'uglifier'
-  gem 'bootstrap-sass', '~> 2.0.3.0'
-  gem 'handlebars_assets', '0.12.3'
-end
+  gem 'bootstrap-sass'
+  gem 'handlebars_assets'
 
 group :development do
   gem 'quiet_assets'

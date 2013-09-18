@@ -62,7 +62,7 @@ GEM
     eventmachine (1.0.3)
     execjs (2.0.1)
     fssm (0.2.10)
-    handlebars_assets (0.12.3)
+    handlebars_assets (0.14.1)
       execjs (>= 1.2.9)
       sprockets (>= 2.0.3)
       tilt
@@ -135,11 +135,11 @@ PLATFORMS
 
 DEPENDENCIES
   active_model_serializers!
-  bootstrap-sass (~> 2.0.3.0)
+  bootstrap-sass
   coffee-rails
   compass-rails
   debugger
-  handlebars_assets (= 0.12.3)
+  handlebars_assets
   pg
   quiet_assets
   rails (= 4.0.0)
