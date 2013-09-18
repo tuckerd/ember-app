@@ -22,7 +22,10 @@ end
   gem 'compass-rails', "~> 2.0.alpha.0"
   gem 'uglifier'
   gem 'bootstrap-sass'
-  gem 'handlebars_assets'
+  # gem 'handlebars_assets'
+
+  gem 'ember-rails'
+  gem 'ember-source', '1.0.0'
 
 gem 'dotenv-rails'
 
