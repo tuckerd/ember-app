@@ -19,10 +19,12 @@ end
 
   gem 'sass-rails'
   gem 'coffee-rails'
-  gem 'compass-rails'
+  gem 'compass-rails', "~> 2.0.alpha.0"
   gem 'uglifier'
   gem 'bootstrap-sass'
   gem 'handlebars_assets'
+
+gem 'dotenv-rails'
 
 group :development do
   gem 'quiet_assets'

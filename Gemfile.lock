@@ -34,7 +34,8 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.0)
     atomic (1.1.14)
-    bootstrap-sass (2.0.3.1)
+    bootstrap-sass (2.3.2.2)
+      sass (~> 3.2)
     builder (3.1.4)
     chunky_png (1.2.8)
     coffee-rails (4.0.0)
@@ -49,7 +50,7 @@ GEM
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
       sass (~> 3.1)
-    compass-rails (1.0.3)
+    compass-rails (2.0.alpha.0)
       compass (>= 0.12.2, < 0.14)
     daemons (1.1.9)
     debugger (1.6.1)
@@ -58,6 +59,9 @@ GEM
       debugger-ruby_core_source (~> 1.2.3)
     debugger-linecache (1.2.0)
     debugger-ruby_core_source (1.2.3)
+    dotenv (0.9.0)
+    dotenv-rails (0.9.0)
+      dotenv (= 0.9.0)
     erubis (2.7.0)
     eventmachine (1.0.3)
     execjs (2.0.1)
@@ -137,8 +141,9 @@ DEPENDENCIES
   active_model_serializers!
   bootstrap-sass
   coffee-rails
-  compass-rails
+  compass-rails (~> 2.0.alpha.0)
   debugger
+  dotenv-rails
   handlebars_assets
   pg
   quiet_assets
